@@ -70,5 +70,18 @@ body{
 }
 
 #enter{
-    
+    width: 7%;
+}
+
+#lowE{
+    height: 110%;
+    transform: translate(-0.7px, -5px);
+}
+
+#Lshift{
+    width: 14%;
+}
+
+#window{
+    transform: rotate(45deg);
 }
