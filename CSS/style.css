@@ -9,13 +9,13 @@ body{
 .keyBoard{
     height: 350px;
     width: 85%;
-    background-color: whitesmoke;
+    background-color: silver;
+    border: 5px steelblue outset;
 
 }   
 
 .row1{
-    background-color: gray;
-    height: 10%;
+    height: 9.09%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,11 +31,13 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border: 1px white solid;
+    border-style: outset;
 } 
 
 .row2{
-    background-color: gray;
-    height: 15%;
+  
+    height: 18.18%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,6 +53,9 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    border: 1px white solid;
+    border-style: outset;
+    
 }
 
 #backspaces{
@@ -74,8 +79,9 @@ body{
 }
 
 #lowE{
-    height: 110%;
-    transform: translate(-0.7px, -5px);
+    height: 100%;
+    transform: translate(-0.7px, -2.7px);
+    border-style: none outset outset outset;
 }
 
 #Lshift{
@@ -84,4 +90,18 @@ body{
 
 #window{
     transform: rotate(45deg);
+}
+
+#spacesbar{
+    width: 32%;
+}
+
+#arrowup{
+    height: 40%;
+    transform: translate(0px, -53%);
+}
+
+#arrowdown{
+    height: 40%;
+    transform: translate(648.5%, -180%);
 }

@@ -1,14 +1,11 @@
-// console.log("Det fiúnkar!!")
+ console.log("Det fiúnkar!!")
 
-// document.addEventListener("keydown", (event) => {
+ document.addEventListener("keypress", (event) => {
 
-//     console.log(event.key)
+     console.log(event);
 
-//     if(event.key == "b"){
-//         document.getElementById("Elias").style = "color:blue";
-//     }
-//     else{
-//         document.body.style = "background-color:red";
-//     }
+if(event.key == "w"){
+         document.getElementById("w").style = "color:blue";
+     }
 
-// });
+});
