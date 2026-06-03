@@ -58,15 +58,15 @@ body{
     
 }
 
-#backspaces{
+#Backspace{
     width: 10%;
 }
 
-#§{
+#Backquote{
     width: 4%;
 }
 
-#tab{
+#Tab{
     width: 7%;
 }
 
@@ -74,7 +74,7 @@ body{
     width: 8.5%;
 }
 
-#enter{
+#Enter{
     width: 7%;
 }
 
