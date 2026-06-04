@@ -70,7 +70,7 @@ body{
     width: 7%;
 }
 
-#caps{
+#CapsLock{
     width: 8.5%;
 }
 
@@ -84,24 +84,24 @@ body{
     border-style: none outset outset outset;
 }
 
-#Lshift{
+#ShiftRight{
     width: 14%;
 }
 
-#window{
+#MetaLeft{
     transform: rotate(45deg);
 }
 
-#spacesbar{
+#Space{
     width: 32%;
 }
 
-#arrowup{
+#ArrowUp{
     height: 40%;
     transform: translate(0px, -53%);
 }
 
-#arrowdown{
+#ArrowDown{
     height: 40%;
-    transform: translate(648.5%, -180%);
+    transform: translate(643%, -180%);
 }
