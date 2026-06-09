@@ -1,16 +1,19 @@
 body{
-    background-color: pink;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     
+    background-image: url(../26626391221.jpg);
+    background-size: 100%;
 }
+
 
 .keyBoard{
     height: 350px;
     width: 85%;
-    background-color: silver;
-    border: 5px steelblue outset;
+    background-color: palevioletred;
+    border: 5px purple outset;
 
 }   
 
@@ -23,8 +26,8 @@ body{
 }
 
 .row1 *{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: darkmagenta;
     height: 75%;
     width: 6%;
     display: flex;
@@ -45,15 +48,15 @@ body{
 }
 
 .row2 *{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: darkmagenta;
     height: 90%;
     width: 6%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px white solid;
+    border: 1px lightpink solid;
     border-style: outset;
     
 }
@@ -103,5 +106,5 @@ body{
 
 #ArrowDown{
     height: 40%;
-    transform: translate(643%, -180%);
+    transform: translate(648%, -180%);
 }
